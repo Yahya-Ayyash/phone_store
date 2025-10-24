@@ -1,10 +1,6 @@
 import express from "express";
-import {
-  addUsersHandler,
-  getAllUsersHandler,
-  getUserByIdHandler,
-  updateUsersHandler,
-} from "../handler/usersHandler.js";
+import { addUsersHandler, getAllUsersHandler, getUserByIdHandler, updateUsersHandler } from "../handlers/userHandler.js";
+
 
 const useRouter = express.Router();
 

@@ -1,10 +1,10 @@
 import express from "express";
 import { testConnection } from "./config/db.js";
-import useRouter from "./routes/userRoute.js";
+import useRouter from "./routes/usersRoutes.js";
 
 // membuat server
 const app = express();
-const port = 2807;
+const port = 3000;
 
 app.use(express.json());
  
